@@ -1,0 +1,39 @@
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# Python缓存
+__pycache__/
+*.pyc
+*.py[cod]
+
+# 向量库 Chroma 数据库（重点！不要上传向量库）
+chroma_db/
+*.chroma
+
+# 环境变量、密钥（绝对禁止上传！）
+.env
+.env.local
+*.secret
+
+# 日志文件
+logs/
+*.log
+
+# 模型权重、大文件
+models/
+*.bin
+*.safetensors
+
+# IDE缓存
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 本地文档、pdf素材
+docs_raw/
+*.pdf
